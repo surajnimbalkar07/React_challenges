@@ -9,11 +9,11 @@ export default function App() {
       setNum((currentNum) => {
         if (currentNum > 0) {
           return currentNum - 1;
-        } else {
+        }else {
 
           // Stop the interval when num reaches 0
           clearInterval(interval);//used closure concept here, get access of parent variable
-          return num;
+          return 0;
         }
       });
     }, 1000);
