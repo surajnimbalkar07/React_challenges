@@ -1,8 +1,3 @@
-# React + Vite
+## problem statement
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Create a React component that includes a counter (count) initialized to 0 and a timer (num) initialized to 10. Implement functionality so that clicking a button increments the counter (count) until the timer (num) reaches 0. The timer should decrement every second, and when it reaches 0, clicking the button should no longer increment the counter.
